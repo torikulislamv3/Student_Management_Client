@@ -1,9 +1,6 @@
 import React from 'react'
 import { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -32,7 +29,7 @@ const Banner = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        className="mySwiper bg-gray-600"
       >
         <SwiperSlide>
           <img src="https://i.postimg.cc/cLjMkN7H/Picture-1.jpg" />

@@ -8,7 +8,7 @@ const Footer = () => {
     <p className="font-bold">
       <strong>Rangpur Polytechnic Institute</strong>
       <br />
-      <span className='text-blue-900'>Computer Science & Technology</span>
+      <span className='text-yellow-200'>Computer Science & Technology</span>
     </p>
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
