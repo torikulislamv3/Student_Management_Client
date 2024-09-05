@@ -14,11 +14,11 @@ const Footer = () => {
   </aside>
   <nav>
     <div>
-        <a className='mr-5 underline text-[16px]' href="https://rangpur.polytech.gov.bd/">About us</a>
-        <a className='mr-5 underline text-[16px]' href="https://rangpur.polytech.gov.bd/site/view/notices">Notice</a>
+        <a target='blank' className='mr-5 underline text-[16px]' href="https://rangpur.polytech.gov.bd/">About us</a>
+        <a target='blank' className='mr-5 underline text-[16px]' href="https://rangpur.polytech.gov.bd/site/view/notices">Notice</a>
     </div>
     <p className='text-[10px]'>
-        Made by : <a className='underline text-green-600' href="https://www.facebook.com/mdtorikulislamtamim/">MD TORIKUL ISLAM</a>
+        Made by : <a target='blank' className='underline text-green-600' href="https://www.facebook.com/mdtorikulislamtamim/">MD TORIKUL ISLAM</a>
     </p>
   </nav>
   
