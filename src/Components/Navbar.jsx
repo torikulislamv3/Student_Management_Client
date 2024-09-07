@@ -1,18 +1,18 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
    <div className="navbar bg-gray-400">
   <div className="navbar-start">
-    <div className="dropdown">
+    <div className="dropdown z-10">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor">
+          stroke="yellow">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-yellow-400">
       <NavLink>Home</NavLink>
       <NavLink>Our Student's</NavLink>
       <NavLink>About Us</NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Login</a>
+    <Link to="/login" className="btn text-yellow-300 bg-gray-500">Sign In</Link>
   </div>
 </div>
   )
