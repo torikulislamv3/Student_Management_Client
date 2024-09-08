@@ -32,31 +32,31 @@ const Banner = () => {
         className="mySwiper bg-gray-600"
       >
         <SwiperSlide>
-          <img src="https://i.postimg.cc/cLjMkN7H/Picture-1.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/cLjMkN7H/Picture-1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/qRptjmFq/Picture-1.png" />
+          <img className='size-[300px]' src="https://i.postimg.cc/qRptjmFq/Picture-1.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/NMGM1Kyr/Picture-2.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/NMGM1Kyr/Picture-2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/1zhVNRcp/Picture-3.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/1zhVNRcp/Picture-3.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/7PsCnnnP/Picture-4.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/7PsCnnnP/Picture-4.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/mk5tZTg1/Picture-5.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/mk5tZTg1/Picture-5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/ZKWW7vw8/Picture-6.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/ZKWW7vw8/Picture-6.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/dtgLzQfz/Picture-7.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/dtgLzQfz/Picture-7.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://i.postimg.cc/bYBJtNqs/Picture-14.jpg" />
+          <img className='size-[300px]' src="https://i.postimg.cc/bYBJtNqs/Picture-14.jpg" />
         </SwiperSlide>
       </Swiper>
     </>
