@@ -29,7 +29,7 @@ const Banner = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper bg-gray-600"
+        className="mySwiper bg-white"
       >
         <SwiperSlide>
           <img className='size-[300px]' src="https://i.postimg.cc/cLjMkN7H/Picture-1.jpg" />
