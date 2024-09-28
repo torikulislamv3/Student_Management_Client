@@ -13,13 +13,11 @@ const Footer = () => {
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
   <nav>
-    <div>
+    <div className='mt-[-20px] pb-10'>
         <a target='blank' className='mr-5 underline text-[16px]' href="https://rangpur.polytech.gov.bd/">About us</a>
         <a target='blank' className='mr-5 underline text-[16px]' href="https://rangpur.polytech.gov.bd/site/view/notices">Notice</a>
     </div>
-    <p className='text-[10px]'>
-        Made by : <a target='blank' className='underline text-green-600' href="https://www.facebook.com/mdtorikulislamtamim/">MD TORIKUL ISLAM</a>
-    </p>
+   
   </nav>
   
 </footer>
