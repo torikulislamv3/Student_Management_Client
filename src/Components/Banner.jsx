@@ -15,50 +15,35 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 const Banner = () => {
   return (
     <>
-    <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper bg-white"
-      >
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/cLjMkN7H/Picture-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/qRptjmFq/Picture-1.png" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/NMGM1Kyr/Picture-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/1zhVNRcp/Picture-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/7PsCnnnP/Picture-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/mk5tZTg1/Picture-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/ZKWW7vw8/Picture-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/dtgLzQfz/Picture-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className='size-[300px]' src="https://i.postimg.cc/bYBJtNqs/Picture-14.jpg" />
-        </SwiperSlide>
-      </Swiper>
+   <div className="carousel w-full">
+  <div id="slide1" className="carousel-item relative w-full">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGTaXy1LGswSwly9h2TWJ-woadoUlDmMHYQ&s"
+      className="w-full h-[280px] lg:h-[350px]" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide4" className="btn btn-circle">❮</a>
+      <a href="#slide2" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" className="carousel-item relative w-full">
+    <img
+      src="https://media.licdn.com/dms/image/v2/C511BAQElInIXVOs1yg/company-background_10000/company-background_10000/0/1584417593148/rangpurpolytechnicinstitute_cover?e=2147483647&v=beta&t=XgmHCOysnsLrHij_aconqH1jih9CbNOaH3OrPXzxcsc"
+      className="w-full h-[280px] lg:h-[350px]" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide1" className="btn btn-circle">❮</a>
+      <a href="#slide3" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" className="carousel-item relative w-full">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_XlYZ3ykfBlX1zxsyUgaEjLJfLysjczrxQ&s"
+      className="w-full h-[280px] lg:h-[350px]" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide2" className="btn btn-circle">❮</a>
+      <a href="#slide4" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
     </>
   )
 }
